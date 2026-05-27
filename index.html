@@ -50,7 +50,7 @@
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.webp" alt=""> -->
-          <h1 class="sitename">GOD'S AWE MINISTRIES</h1>
+          <h1 class="sitename">GOD'S AWE WORSHIP MINISTRIES</h1>
         </a>
 
         <div class="d-flex align-items-cente">
@@ -60,7 +60,7 @@
 </a>
 
   <!-- YouTube -->
-  <a href="https://www.youtube.com/@yourchannel" target="_blank" class="youtube">
+  <a href="https://youtube.com/@tabithankoroi3682?si=RjhwX7wJyHEqNmA0" target="_blank" class="youtube">
     <i class="bi bi-youtube"></i>
   </a>
 
@@ -86,23 +86,8 @@
             <li><a href="#our-objectives">Objectives</a></li>
             <li><a href="#portfolio"></a></li>
             <li><a href="#team"></a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
+            
+             
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,34 +98,6 @@
   </header>
 
   <main class="main">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  <!-- Hero Section -->
@@ -286,16 +243,7 @@ From that humble beginning, the ministry has grown and developed in diverse ways
 
 
 
-    <!-- Firm DNA Section -->
-<section class="section">
-
-  <!-- Green Header -->
-  <div class="bg-success py-5 text-center text-white">
-    <div class="container">
-      <h2 class="mb-2">OUR FIRM'S</h2>
-      <h1 class="fw-bold">DNA</h1>
-    </div>
-  </div>
+ 
 
   <div class="container py-5">
     <div class="row align-items-center">
@@ -352,49 +300,6 @@ From that humble beginning, the ministry has grown and developed in diverse ways
   </div>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- Key Practices Section -->
@@ -715,11 +620,262 @@ OUR KEY PRACTICES:</h2>
      MAIN CONTENT
 ========================== -->
 
-<div class="gods-awe-wrapper" id="our-campuses"></div>
+
 
   <div class="gods-awe-container">
 
     <!-- CAMPUS SECTION -->
+    
+
+<style>
+
+
+.gods-awe-wrapper{
+  padding:80px 20px;
+  background:#0b1020;
+  color:#fff;
+}
+
+.gods-awe-container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.gods-awe-campus-box{
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(10px);
+  border-radius:25px;
+  padding:40px 25px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+  text-align:center;
+}
+
+.gods-awe-title{
+  font-size:3rem;
+  color:#ffb400;
+  margin-bottom:20px;
+  font-weight:700;
+}
+
+.gods-awe-text{
+  max-width:700px;
+  margin:auto;
+  line-height:1.8;
+  color:#ddd;
+}
+
+/* =========================
+   CAMPUS GRID
+========================= */
+
+.gods-awe-campus-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+
+.gods-awe-campus-card{
+  background:rgba(255,255,255,0.08);
+  border-radius:20px;
+  padding:30px 20px;
+  transition:0.4s ease;
+  border:1px solid rgba(255,255,255,0.1);
+  position:relative;
+  overflow:hidden;
+}
+
+.gods-awe-campus-card:hover{
+  transform:translateY(-10px) scale(1.03);
+  background:rgba(255,180,0,0.12);
+  box-shadow:0 10px 30px rgba(255,180,0,0.2);
+}
+
+.gods-awe-icon-wrap{
+  width:80px;
+  height:80px;
+  margin:auto;
+  border-radius:50%;
+  background:rgba(255,180,0,0.12);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  animation:floatIcon 3s ease-in-out infinite;
+}
+
+.gods-awe-icon-wrap i{
+  font-size:2.5rem;
+  color:#ffb400;
+}
+
+@keyframes floatIcon{
+  0%{
+    transform:translateY(0px);
+  }
+  50%{
+    transform:translateY(-10px);
+  }
+  100%{
+    transform:translateY(0px);
+  }
+}
+
+.gods-awe-campus-card h3{
+  margin-top:20px;
+  font-size:1.2rem;
+}
+
+.gods-awe-campus-card p{
+  color:#ddd;
+  margin-top:10px;
+}
+
+/* BUTTON */
+
+.gods-awe-btn{
+  margin-top:20px;
+  padding:12px 22px;
+  border:none;
+  border-radius:30px;
+  background:#ffb400;
+  color:#000;
+  font-weight:700;
+  cursor:pointer;
+  transition:0.3s ease;
+}
+
+.gods-awe-btn:hover{
+  background:#fff;
+  transform:scale(1.05);
+}
+
+/* =========================
+   MODAL
+========================= */
+
+.gods-awe-modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.85);
+  display:none;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  z-index:999;
+}
+
+.gods-awe-modal.active{
+  display:flex;
+  animation:fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+.gods-awe-modal-content{
+  width:100%;
+  max-width:900px;
+  background:#111827;
+  border-radius:25px;
+  overflow:hidden;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  animation:zoomIn 0.4s ease;
+  position:relative;
+}
+
+@keyframes zoomIn{
+  from{
+    transform:scale(0.7);
+    opacity:0;
+  }
+  to{
+    transform:scale(1);
+    opacity:1;
+  }
+}
+
+.gods-awe-modal-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.gods-awe-modal-details{
+  padding:40px;
+  text-align:left;
+}
+
+.gods-awe-modal-details h2{
+  color:#ffb400;
+  margin-bottom:25px;
+  font-size:2rem;
+}
+
+.gods-awe-modal-details h4{
+  margin-top:20px;
+  color:#fff;
+}
+
+.gods-awe-modal-details p{
+  color:#ccc;
+  line-height:1.7;
+}
+
+.gods-awe-close{
+  position:absolute;
+  right:20px;
+  top:15px;
+  font-size:2rem;
+  color:#fff;
+  cursor:pointer;
+  z-index:10;
+  transition:0.3s;
+}
+
+.gods-awe-close:hover{
+  color:#ffb400;
+  transform:rotate(90deg);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:768px){
+
+  .gods-awe-title{
+    font-size:2rem;
+  }
+
+  .gods-awe-modal-content{
+    grid-template-columns:1fr;
+  }
+
+  .gods-awe-modal-image img{
+    height:300px;
+  }
+
+  .gods-awe-modal-details{
+    padding:25px;
+  }
+
+}
+</style>
+<!-- =========================
+     OUR CAMPUSES SECTION
+========================= -->
+
+<section class="gods-awe-wrapper" id="our-campuses">
+
+  <div class="gods-awe-container">
+
     <div class="gods-awe-campus-box">
 
       <h1 class="gods-awe-title">Our Campuses</h1>
@@ -729,47 +885,193 @@ OUR KEY PRACTICES:</h2>
         in multiple campuses around the globe.
       </p>
 
+      <!-- CAMPUS GRID -->
       <div class="gods-awe-campus-grid">
 
-        
-      
-        <div class="gods-awe-campus-card">
-          <i class="bi bi-geo-alt-fill"></i>
-          <h3>God’s Awe Kariene</h3>
+        <!-- KARIENE -->
+        <div class="gods-awe-campus-card"
+             data-campus="kariene">
+
+          <div class="gods-awe-icon-wrap">
+            <i class="bi bi-compass-fill"></i>
+          </div>
+
+          <h3>God’s Awe Worship Center Kariene</h3>
           <p>Kenya</p>
+
+          <button class="gods-awe-btn">
+            View Campus
+          </button>
         </div>
 
+        <!-- MAUA -->
+        <div class="gods-awe-campus-card"
+             data-campus="maua">
 
+          <div class="gods-awe-icon-wrap">
+            <i class="bi bi-compass-fill"></i>
+          </div>
 
-        <div class="gods-awe-campus-card">
-          <i class="bi bi-geo-alt-fill"></i>
-          <h3>God’s Awe Maua</h3>
+          <h3>God’s Awe Worship Center Maua</h3>
           <p>Kenya</p>
+
+          <button class="gods-awe-btn">
+            View Campus
+          </button>
         </div>
 
-        <div class="gods-awe-campus-card">
-          <i class="bi bi-geo-alt-fill"></i>
-          <h3>God’s Awe Athi</h3>
+        <!-- ATHI -->
+        <div class="gods-awe-campus-card"
+             data-campus="athi">
+
+          <div class="gods-awe-icon-wrap">
+            <i class="bi bi-compass-fill"></i>
+          </div>
+
+          <h3>God’s Awe Worship Center Athi</h3>
           <p>Kenya</p>
+
+          <button class="gods-awe-btn">
+            View Campus
+          </button>
         </div>
 
-        <div class="gods-awe-campus-card">
-          <i class="bi bi-geo-alt-fill"></i>
-          <h3>God’s Awe Dallas</h3>
+        <!-- DALLAS -->
+        <div class="gods-awe-campus-card"
+             data-campus="dallas">
+
+          <div class="gods-awe-icon-wrap">
+            <i class="bi bi-compass-fill"></i>
+          </div>
+
+          <h3>God’s Awe Worship Center Dallas</h3>
           <p>Texas, U.S.A.</p>
+
+          <button class="gods-awe-btn">
+            View Campus
+          </button>
         </div>
 
       </div>
+    </div>
+  </div>
 
-      <p class="gods-awe-text" style="margin-top:25px;">
-        We are blessed to have all these campuses and excited for the new ones
-        the Lord will continue to establish.
-      </p>
+</section>
 
-      <a href="#" class="gods-awe-btn">Learn More</a>
+<!-- =========================
+     POPUP MODAL
+========================= -->
+
+<div class="gods-awe-modal" id="campusModal">
+
+  <div class="gods-awe-modal-content">
+
+    <span class="gods-awe-close" id="closeModal">
+      &times;
+    </span>
+
+    <div class="gods-awe-modal-image">
+      <img id="campusImage" src="" alt="Campus Image">
+    </div>
+
+    <div class="gods-awe-modal-details">
+
+      <h2 id="campusName"></h2>
+
+      <h4>Lead Pastor</h4>
+      <p id="campusPastor"></p>
+
+      <h4>Church Program</h4>
+      <p id="campusProgram"></p>
+
+      <h4>Phone Number</h4>
+      <p id="campusPhone"></p>
 
     </div>
 
+  </div>
+</div>
+//js campuses//
+<script>
+
+const campusData = {
+
+  kariene: {
+    name: "God’s Awe Worship Center Kariene",
+    image: "assets/img/img1.jpg",
+    pastor: "Pastor John Mwenda",
+    program: "Sunday Service - 9:00 AM\nWednesday Fellowship - 5:00 PM",
+    phone: "+254 119588619"
+  },
+
+  maua: {
+    name: "God’s Awe Worship Center Maua",
+    image: "assets/img/img1.jpg",
+    pastor: "Pastor Peter Muriuki",
+    program: "Sunday Worship - 8:30 AM\nFriday Keshas - 9:00 PM",
+    phone: "+254 119588618"
+  },
+
+  athi: {
+    name: "God’s Awe Worship Center Athi",
+    image: "assets/img/img1.jpg",
+    pastor: "Pastor Grace Wambui",
+    program: "Sunday Service - 10:00 AM\nYouth Service - Saturday 3:00 PM",
+    phone: "+254 119588621"
+  },
+
+  dallas: {
+    name: "God’s Awe Worship Center Dallas",
+    image: "assets/img/img1.jpg",
+    pastor: "Pastor Michael Smith",
+    program: "Sunday Celebration - 11:00 AM\nBible Study - Tuesday 7:00 PM",
+    phone: "+254 119588623"
+  }
+
+};
+
+const modal = document.getElementById("campusModal");
+const closeModal = document.getElementById("closeModal");
+
+const campusImage = document.getElementById("campusImage");
+const campusName = document.getElementById("campusName");
+const campusPastor = document.getElementById("campusPastor");
+const campusProgram = document.getElementById("campusProgram");
+const campusPhone = document.getElementById("campusPhone");
+
+document.querySelectorAll(".gods-awe-campus-card")
+.forEach(card => {
+
+  card.addEventListener("click", () => {
+
+    const campus = card.dataset.campus;
+    const data = campusData[campus];
+
+    campusImage.src = data.image;
+    campusName.innerText = data.name;
+    campusPastor.innerText = data.pastor;
+    campusProgram.innerText = data.program;
+    campusPhone.innerText = data.phone;
+
+    modal.classList.add("active");
+
+  });
+
+});
+
+closeModal.addEventListener("click", () => {
+  modal.classList.remove("active");
+});
+
+window.addEventListener("click", (e) => {
+  if(e.target === modal){
+    modal.classList.remove("active");
+  }
+});
+
+</script>
+
+   
     <!-- OBJECTIVES SECTION -->
     <div class="gods-awe-objectives" id="our-objectives">
 
